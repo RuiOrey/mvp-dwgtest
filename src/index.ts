@@ -1,5 +1,5 @@
 // add styles
-import './style.css'
+//import './style.css'
 // three.js
 import * as THREE from 'three'
 

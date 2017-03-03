@@ -2,12 +2,14 @@
     "compilerOptions": {
         "target": "es5",
         "module": "commonjs",
+        "lib": [ "es2015", "dom" ],
         "moduleResolution": "node",
+        "sourceMap": true,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "preserveConstEnums": true,
         "suppressImplicitAnyIndexErrors": true,
-        "outDir": "./lib/"
+        "outDir": "./src/"
     },
     "awesomeTypescriptLoaderOptions": {
         "useWebpackText": true,
@@ -15,8 +17,7 @@
         "useCache": true
     },
     "exclude": [
-        "node_modules",
-        "lib"
+        "node_modules"
     ],
     "compileOnSave": true,
     "buildOnSave": false,
