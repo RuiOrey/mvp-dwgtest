@@ -43,3 +43,5 @@ jspm_packages
 Typescript
 *.js.map
 app/**/*.js
+
+*.map
