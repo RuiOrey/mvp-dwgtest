@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/RuiOrey/mvp-dwgtest/issues"
   },
-  "homepage": "https://github.com/RuiOrey/mvp-dwgtest#readme"
+  "homepage": "https://github.com/RuiOrey/mvp-dwgtest#readme",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "concurrently": "latest",
+    "typescript": "latest",
+    "typings": "^2.1.0"
+  },
+  "dependencies": {
+    "three": "latest"
+  }
 }
