@@ -40,5 +40,6 @@ jspm_packages
 
 .awcache
 
-**/app/**/*.js
-**/app/**/*.map
+Typescript
+*.js.map
+app/**/*.js
