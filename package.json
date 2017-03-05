@@ -1,0 +1,19 @@
+{
+  "name": "mvp-dwgtest",
+  "version": "1.0.0",
+  "description": "A playground to test webgl ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuiOrey/mvp-dwgtest.git"
+  },
+  "author": "rui orey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuiOrey/mvp-dwgtest/issues"
+  },
+  "homepage": "https://github.com/RuiOrey/mvp-dwgtest#readme"
+}
