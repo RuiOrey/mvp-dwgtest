@@ -25,6 +25,7 @@
     "typings": "^2.1.0"
   },
   "dependencies": {
-    "three": "latest"
+    "three": "latest",
+    "core-js": "latest"
   }
 }
