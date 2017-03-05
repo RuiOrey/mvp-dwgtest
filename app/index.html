@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--    <script src="core-js/client/shim.min.js"></script>-->
+    <script src="systemjs/dist/system.js"></script>
     <script src="three/build/three.min.js"></script>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
 
-<script src="app.js"></script>
-
+<!--<script src="app.js"></script>-->
+<script>
+    System.config( {
+                       packages: {
+                           src: {
+                               defaultExtension: 'js'
+                           }
+                       }
+                   } );
+    SystemJS.import( '/app.js' );
+</script>
 </body>
 </html>

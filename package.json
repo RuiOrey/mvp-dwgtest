@@ -26,6 +26,8 @@
   },
   "dependencies": {
     "three": "latest",
-    "core-js": "latest"
+    "core-js": "latest",
+    "systemjs": "latest",
+    "stats-js": "latest"
   }
 }
