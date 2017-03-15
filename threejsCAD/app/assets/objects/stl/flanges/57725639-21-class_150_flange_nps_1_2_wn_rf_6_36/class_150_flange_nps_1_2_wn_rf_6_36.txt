@@ -1,0 +1,15 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartStandardAcronym";"ANSI_METRIC";"";
+"MASS";"0.6";"kg";
+"DESIGN";"Class 150 flange - NPS 1/2 - Welding neck - Raised face";"";
+"TraceParts.PartNumber";"22-11052002-074924";"";
+"TraceParts.PartLanguage";"en";"";
+"STANDARD";"ASME B 16.5 - 1996";"";
+"TraceParts.InstanceId";"22-11052002-0749244KH1ZDW8DXOA9G45NGTHBIN78";"";
+"TraceParts.PartTitle";"Class 150 flanges - NPS 1/2 to 24 - Welding neck";"";
+"NOTE";"Raised face";"";
+"TraceParts.PartVersion";"1.2.7";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatusId";"";"";
+"TraceParts.ClassPath";"ANSI_METRIC:/TRACEPARTS/TP07/TP07007/TP07007007/22-11052002-074924";"";
+"TraceParts.PartStatus";"Published";"";

@@ -1,0 +1,11 @@
+{
+  "globalDependencies": {
+    "datgui": "github:retyped/dat-gui-tsd-ambient/dat-gui.d.ts",
+    "objloader": "file:./app/custom_typings/objloader/index.d.ts",
+    "stats": "github:JeffJankowski/stats.ts/stats.d.ts",
+    "stlloader": "file:./app/custom_typings/stlloader/index.d.ts",
+    "three": "registry:dt/three#0.83.0+20170217155006",
+    "three-orbitcontrols": "registry:dt/three-orbitcontrols#0.0.0+20160704010734",
+    "three-transformcontrols": "file:./app/custom_typings/transformcontrols/index.d.ts"
+  }
+}

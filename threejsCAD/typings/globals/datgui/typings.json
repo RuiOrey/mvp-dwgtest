@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/retyped/dat-gui-tsd-ambient/master/dat-gui.d.ts",
+    "raw": "github:retyped/dat-gui-tsd-ambient/dat-gui.d.ts",
+    "typings": "https://raw.githubusercontent.com/retyped/dat-gui-tsd-ambient/master/dat-gui.d.ts"
+  }
+}

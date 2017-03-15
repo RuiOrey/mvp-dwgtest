@@ -1,9 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="./style.css"></link>
+    <link rel="stylesheet" type="text/css" href="css/style.css"></link>
     <!--    <script src="core-js/client/shim.min.js"></script>-->
+    <script src="stats-js/build/stats.min.js"></script>
+    <script src="three/build/three.min.js"></script>
+    <script src="three/examples/js/controls/OrbitControls.js"></script>
+    <script src="three/examples/js/controls/TransformControls.js"></script>
+    <script src="three/examples/js/loaders/STLLoader.js"></script>
+    <script src="three/examples/js/loaders/OBJLoader.js"></script>
+    <script src="dat.gui/build/dat.gui.min.js"></script>
     <script src="systemjs/dist/system.js"></script>
+    <script>
+        /*    System.config( {
+         baseURL: 'node_modules',
+         packageConfigPaths: [ '*../package.json' ],
+         packages: {
+         '': {
+         defaultExtension: 'js'
+         }
+         }
+         } );
+         // SystemJS.config( {} );*/
+        System.config( {
+            paths: {
+                // paths serve as alias
+                'npm:': 'node_modules/'
+            }, // map tells the System loader where to look for things
+            map: {
+                // our app is within the app folder
+                // app: 'app', // 'dist',
+                // angular bundles
+                'dat.gui': 'dat-gui/vendor/dat.gui.js', 'three-stl-loader': 'three/examples/js/loaders/STLLoader.js'
+            }, // packages tells the System loader how to load when no filename and/or no extension
+            packages: {
+                '': {
+                    defaultExtension: 'js'
+                }, 'dat.gui': { defaultExtension: 'js' }
+            }
+        } );
+        SystemJS.import( './app' );
+    </script>
     <!-- <script src="three/build/three.min.js"></script>-->
     <meta charset="UTF-8">
     <title>NANO three.js sandbox</title>
@@ -11,15 +48,6 @@
 <body>
 
 <!--<script src="app.js"></script>-->
-<script>
-    System.config( {
-        packages: {
-            src: {
-                defaultExtension: 'js'
-            }
-        }
-    } );
-    SystemJS.import( '/app.js' );
-</script>
+
 </body>
 </html>

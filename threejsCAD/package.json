@@ -21,13 +21,17 @@
     "browser-sync": "latest",
     "concurrently": "latest",
     "lite-server": "latest",
+    "tslint": "^4.5.1",
     "typescript": "latest",
     "typings": "^2.1.0"
   },
   "dependencies": {
-    "three": "latest",
     "core-js": "latest",
+    "dat.gui": "^0.6.1",
+    "stats-js": "latest",
     "systemjs": "latest",
-    "stats-js": "latest"
+    "three": "latest",
+    "three-stl-loader": "^1.0.4",
+    "typescript": "^2.2.1"
   }
 }

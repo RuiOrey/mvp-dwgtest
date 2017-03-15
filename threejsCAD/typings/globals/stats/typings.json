@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/JeffJankowski/stats.ts/master/stats.d.ts",
+    "raw": "github:JeffJankowski/stats.ts/stats.d.ts",
+    "typings": "https://raw.githubusercontent.com/JeffJankowski/stats.ts/master/stats.d.ts"
+  }
+}
